@@ -27,9 +27,9 @@ I.dontMind(() => {
 ## I.dontGiveA\*\*\*\*
 
 ```ts
-I["dontGiveA****"](() => {
+I.dontGiveAF_ck(() => {
   console.log(
-    "Use this if a teammate wants changes to your code, use this as the change"
+    "If a teammate wants changes to your code, use this as the change"
   );
 });
 ```

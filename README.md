@@ -29,7 +29,7 @@ I.dontMind(() => {
 ```ts
 I["dontGiveA****"](() => {
   console.log(
-    "Use this if a teammate wants changes to your code, use this a the change"
+    "Use this if a teammate wants changes to your code, use this as the change"
   );
 });
 ```

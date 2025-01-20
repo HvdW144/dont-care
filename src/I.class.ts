@@ -20,13 +20,18 @@ export class I {
     }
   }
 
+  /**
+   * I don't give a ****
+   * @param callback Code that will be executed, nothing more
+   */
   static "dontGiveA****"(callback: () => void) {
     callback();
   }
 }
 
 export const dontCare = I.dontCare;
-
-I["dontGiveA****"](() => {
-  console.log("I don't give a ****");
-});
+export const dontMind = I.dontMind;
+/**
+ * I don't give a ****
+ */
+export const dontGiveAF_ck = I["dontGiveA****"];

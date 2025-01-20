@@ -1,9 +1,9 @@
-class I {
-  static dontCare() {
-    console.log("I dont care");
-  }
+export class I {
+  static dontCare(callback: () => void) {}
 }
 
-export const iDontCare = I.dontCare;
+export const dontCare = I.dontCare;
 
-export default I;
+dontCare(() => {
+  console.log("I don't care");
+});
